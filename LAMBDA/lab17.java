@@ -4,11 +4,13 @@ interface G{ boolean m(int n); }
 interface H{int m(int i, int j);}
 public class lab17 {
     public static void main(String[] args) {
+        
         // F f = () -> 100;
         // IO.println(f.m());
         // // f = () -> "Hello"; // error: incompatible types: bad return type in lambda expression
-        // f = () -> (short)120;
-        // IO.println(f.m());
+       // F f = () -> (long long)120; error 
+         F f=()->(short)120;// no prob widening conversion
+         IO.println(f.m());
         // F2 f2 = () -> 3.14;
         // IO.println(f2.m());
         // f2 = () -> Math.random();

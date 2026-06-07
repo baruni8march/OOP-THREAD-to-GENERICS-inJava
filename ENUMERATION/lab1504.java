@@ -3,6 +3,7 @@
 //try out with static block etc
 //try out other topic lab code as well
 enum A{B(4),C(2),D(1);
+    //enum const er por onnokichu na thakle semicolon dibana 
     int i;
     A(int i){
         IO.println("enumA");

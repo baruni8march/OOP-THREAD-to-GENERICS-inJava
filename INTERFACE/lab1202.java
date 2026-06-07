@@ -3,7 +3,7 @@ interface A {
     interface B { // by default public
         void m2();
     }
-    // private interface G {} // error: illegal combination of modifiers: public and private
+   // private interface G {} // error: illegal combination of modifiers: public and private
     // static void m4(); //error: missing method body, or declare abstract
 }
 

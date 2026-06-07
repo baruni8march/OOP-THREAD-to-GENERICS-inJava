@@ -15,6 +15,8 @@ class A<T>{
     }
     void m2(){
         IO.println(t.getClass().getName());
+        IO.println(t.getClass());
+        
     }
 
 }
